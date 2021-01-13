@@ -57,6 +57,10 @@ git clone https://github.com/ytyaru/JS.ServiceWorker.20210113144638
 
 　以上で、sw.js内の3つのイベントが実行されたことを確認できる。
 
+### 参考
+
+* [\[Javascript\] Service Worker 初心者入門、概要から使い方まで](https://webbibouroku.com/Blog/Article/serviceworker#outline__5_2)
+
 # 著者
 
 　ytyaru
