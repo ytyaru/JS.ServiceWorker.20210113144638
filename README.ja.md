@@ -47,7 +47,15 @@ git clone https://github.com/ytyaru/JS.ServiceWorker.20210113144638
 * コードをダウンロードする`git clone https://github.com/ytyaru/JS.ServiceWorker.20210113144638`
 * `cd JS.ServiceWorker.20210113144638/docs/3`でカレントディレクトリを移動する
 * ローカルサーバを起動する`python3 -m http.server 8000`
+* ブラウザを起動する
+* シークレットモードで開く
 * ブラウザのURL欄に`localhost:8000`を入力する(`http://0.0.0.0:8000`だとServiceWorkerが見つからずエラーになる)
+* デベロッパツールを開く（chromeならCtrl+Shift+I）
+* ログをみる（`install event !!`, `activate event !!`）
+* ページ更新する（`F5`キー押下）
+* ログをみる（`fetch event !!`）
+
+　以上で、sw.js内の3つのイベントが実行されたことを確認できる。
 
 # 著者
 
