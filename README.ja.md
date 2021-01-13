@@ -41,7 +41,13 @@ git clone https://github.com/ytyaru/JS.ServiceWorker.20210113144638
 
 # 注意
 
-* 注意点など
+## ローカルで確認する方法
+
+* ターミナルを起動する
+* コードをダウンロードする`git clone https://github.com/ytyaru/JS.ServiceWorker.20210113144638`
+* `cd JS.ServiceWorker.20210113144638/docs/3`でカレントディレクトリを移動する
+* ローカルサーバを起動する`python3 -m http.server 8000`
+* ブラウザのURL欄に`localhost:8000`を入力する(`http://0.0.0.0:8000`だとServiceWorkerが見つからずエラーになる)
 
 # 著者
 
